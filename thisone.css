@@ -21,3 +21,6 @@ background {
 #h1 {
 margin-left: 50%;
 }
+#background-image {
+    url:('background1.jpg');
+}
