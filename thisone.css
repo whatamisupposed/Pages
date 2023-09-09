@@ -14,3 +14,11 @@ body {
     font-size: 100%;
     background-image: url("background1.jpg");
 }
+.nav {
+    text-align:center;
+}
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
