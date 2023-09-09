@@ -1,21 +1,14 @@
-
-header {
-    width: 1000px;
-    height: 90px;
-    padding: 0;
-    box-sizing: content-box;
-    position: relative;
-
-}
 body {
     margin: 0;
     padding: 0;
-    border: 0cap;
+
     font-size: 100%;
     background-image: url("background1.jpg");
     background-color: white;
 }
 .nav {
+    margin: 0;
+    padding: 8px;
     text-align:center;
     background-color: black;
 }
