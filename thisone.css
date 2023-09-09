@@ -2,16 +2,31 @@ background {
     color: black;
 }
 #header {
-    margin-top: 0%;
     width: 1000px;
     height: 90px;
-    padding: 15px;
+    padding: 0;
     box-sizing: content-box;
     position: relative;
 
 }
+.container {
+    position: relative; /* Make the container a positioning context for child elements */
+}
+img {
+    width: 100%; /* Ensure the image takes up the full width of the container */
+    height: auto; /* Maintain the aspect ratio of the image */
+}
+.content-box {
+    position: absolute; /* Position the content-box relative to the container */
+    top: 0; /* Position it at the top of the container */
+    left: 0; /* Position it at the left of the container */
+    background-color: rgba(255, 255, 255, 0.8); /* Background color with some opacity */
+    padding: 20px; /* Add padding to the content-box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow for better visibility */
+}
 #content-box {
     margin-top: 10px;
+    
 }
 #body {
     margin: 0;
