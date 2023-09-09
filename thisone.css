@@ -13,6 +13,7 @@ body {
     border: 0cap;
     font-size: 100%;
     background-image: url("background1.jpg");
+    background-color: white;
 }
 .nav {
     text-align:center;
