@@ -16,10 +16,12 @@ body {
 }
 .nav {
     text-align:center;
+    background-color: black;
 }
+
 h1 {
     text-align: center;
-    background-color: black;
+   
     color: white;
 }
 a{
