@@ -38,5 +38,6 @@ ol{
 
 }
 .upandaway {
-    height: 620px;
+    height: -620px;
+    text-align: center;
 }
